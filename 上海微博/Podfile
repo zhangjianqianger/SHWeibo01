@@ -1,0 +1,27 @@
+# Uncomment this line to define a global platform for your project
+# 项目支持的最低版本
+platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# Swift 的项目需要使用 frameworks / OC 可以使用也可以不使用
+use_frameworks!
+
+# 注释: pod 1.0 版本必须保留
+target '上海微博' do
+
+# 添加使用框架
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'SnapKit'
+pod 'SVProgressHUD'
+pod 'HMRefresh'
+pod 'HMEmoticon'
+pod 'HMImagePicker'
+pod 'HMPhotoBrowser'
+pod 'FFLabel'
+pod 'YYModel'
+pod 'YYWebImage'
+pod 'QorumLogs'
+pod 'FMDB'
+
+end
+
